@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header>h1{
+    width: 100vw;
+    color: white;
+    background-color: black;
+    height: 8vh;
+    text-align: center;
+    margin: 0.4% 0 0 0;
+    padding: 1% 0 0 0;
+    font-size: 2vw;
+}
+header>p{
+    width: 100vw;
+    height: 2vh;
+    font-size: 0.8vw;
+    text-align: right;
+}
+#wrapper>nav{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 5vh;
+}
+#wrapper>nav:hover{
+    background-color: white;
+    color: black;
+}
+#wrapper>nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0.6% 0 ;
+}
+#wrapper>nav>ul>li{
+    margin: 0 2% 1%;
+    font-size: 0.9vw;
+}
+#contentenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#content1{
+    width: 21vw;
+    margin: 1% 0.3%;
+}
+#content1>h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 20vw;
+    font-size: 0.9vw;
+}
+#content1>nav{
+    background-color: white;
+}
+#content1>nav>ul{
+    width: 20vw;
+    list-style-type: none;
+}
+#content1>nav>ul>li{
+    padding: 1.6% 2% 1% ;
+    height: 3vh;
+    font-size: 0.9vw;
+}
+#content1>nav>ul>li:first-child{
+    margin: 1.4% 0;
+}
+#content1>nav>ul>li:nth-last-child(odd){
+    background-color: gray;
+}
+#content1>nav>ul>li:last-child{
+    height: 22vh;
+}
+#content2{
+    width: 19vw;
+    height: 33vh;
+    margin: 5% 0;
+    background-color: gray;
+    text-align: center;
+    font-size: 1vw;
+}
+#content2 img{
+    width: 93%;
+    height: 25vh;
+    margin: 3% 0 3% 1%;
+}
+#content3{
+    width: 20vw;
+    margin: 1% 0;
+}
+#content3>h4{
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+    margin: 1% 2% 0 0;
+}
+#content3>form>p{
+    margin: 4% 0 3% 0;
+    font-size: 0.9vw;
+}
+#content3>form>:nth-child(5){
+    margin: 3% 0;
+}
+#content3>form>input{
+    border: 1px solid #d3cece;
+    width: 60%;
+    height: 3.2vh;
+
+
+}
+#content3>form>button {
+    width: 5vw;
+    height: 3vh;
+    background:linear-gradient(#f3f3ee, #e7e6e6);
+    border: 1px solid gray;
+}
+footer{
+    background-color: black;
+    color: #d3cece;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: 14% 0.3% 0 0;
+    justify-content: space-around;
+    font-size: 1vw;
+
+}
+

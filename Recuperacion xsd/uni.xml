@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="ejeruni.xsd">
+    <departamento codigo="D1" presupuesto="5000000">
+        <nombre>Informática</nombre>
+        <profesor id="P001" contrato="fijo">
+            <nombre>Ana Martínez</nombre>
+            <especialidad>Inteligencia Artificial</especialidad>
+        </profesor>
+        <aula numero="A101" capacidad="50"/>
+    </departamento>
+    <departamento codigo="D2" presupuesto="3000000">
+        <nombre>Matemáticas</nombre>
+        <profesor id="P045" contrato="temporal">
+            <nombre>Luis García</nombre>
+            <especialidad>Álgebra</especialidad>
+        </profesor>
+        <aula numero="B201" capacidad="30"/>
+    </departamento>
+</universidad>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encondig="UFT-8"?>
+<Estacion>
+    <ruta>
+        <nombre>Ruta del bacalao</nombre>
+        <horario>8:00</horario>
+        <parada numero="1">
+            <nombre>Bernabeu</nombre>
+        </parada>
+    </ruta>
+    <ruta>
+        <nombre>Ruta del bacalao</nombre>
+        <horario>9:00</horario>
+        <parada numero="2">
+            <nombre>Banco de Espana</nombre>
+        </parada>
+    </ruta>
+</Estacion>

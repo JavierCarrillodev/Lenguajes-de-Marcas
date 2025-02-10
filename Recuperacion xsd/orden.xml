@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ejerorden.xsd">
+
+    <order id="ORD123" date="2025-01-30" customerId="CUST001">
+        <customer>
+            <name>Maria Gomez</name>
+            <email>maria.gomez@example.com</email>
+        </customer>
+        <products>
+            <product sku="P001" quantity="2" price="15.99">
+                <description>Wireless Mouse</description>
+            </product>
+            <product sku="P002" quantity="1" price="100.00">
+                <description>Bluetooth Keyboard</description>
+            </product>
+        </products>
+        <total>131.98</total>
+    </order>
+    <order id="ORD124" date="2025-01-29" customerId="CUST002">
+        <customer>
+            <name>Juan Perez</name>
+            <email>juan.perez@example.com</email>
+        </customer>
+        <products>
+            <product sku="P003" quantity="1" price="250.00">
+                <description>Gaming Laptop</description>
+            </product>
+        </products>
+        <total>250.00</total>
+    </order>
+</orders>

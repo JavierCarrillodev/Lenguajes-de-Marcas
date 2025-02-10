@@ -1,0 +1,222 @@
+
+/*Movil*/
+body{
+    padding: 0;
+    margin: 0;
+
+}
+#wrapper{
+    display: grid;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas:"header"
+                         "content"
+                        "formulario";
+}
+
+#header{
+display: none;
+}
+#header2>img{
+    grid-area: header;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#content{
+    grid-area: content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#content>h1{
+    color: #a834ce;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    height: 35%;
+}
+#content>p{
+    margin: 6% 0 8% 3%;
+}
+#content>img{
+    width: 100%;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 0 0 20%;
+}
+#formulario>form>h2{
+    height: 19%;
+}
+#formulario>form>input{
+    width: 80%;
+}
+#formulario>form>button{
+    background-color: #983ec5;
+    color: white;
+    width: 82%;
+    height: 8%;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: bold;
+}
+
+/*table*/
+@media  (min-width: 600px){
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper {
+        display: grid;
+        grid-template-rows: 0.6fr 1fr 1fr;
+        grid-template-areas: "header"
+                            "content"
+                            "formulario";
+    }
+    #header2>img{
+        grid-area: header;
+        display: block;
+        width: 100%;
+
+    }
+    #content{
+        grid-area: content;
+        text-align: center;
+    }
+    #content>h1{
+        display: flex;
+        flex-direction: row;
+        margin: -11% 0 0 0;
+        text-align: center;
+        align-items: end;
+        width: 100%;
+
+    }
+    #content>p{
+        margin: 10% 0 8% 0;
+        width: 93%;
+        text-align: center;
+        padding: 0 0 0 2%;
+    }
+    #formulario>form{
+        text-align: left;
+    }
+    #formulario>form>h2{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
+
+/*PC*/
+@media  (min-width: 1000px) {
+    body {
+        padding: 12px;
+        margin: 2px;
+
+    }
+
+    #wrapper {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-rows:1fr 2.2fr 2fr;
+        grid-template-columns:1fr 1fr;
+        grid-template-areas: "header header"
+                            "menu menu"
+                            "content formulario";
+    }
+
+    #header {
+        width: 97%;
+        grid-area: header;
+        background-color: #c0bbbb;
+        display: flex;
+        flex-direction: row;
+        padding: 1% 1%;
+        height: 15vh;
+    }
+    #header2{
+        grid-area: menu;
+        width: 99%;
+    }
+
+    #content {
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        height: 1vh;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #content>h1 {
+        padding: 2% 3% 2% 5%;
+        margin: 1% ;
+        color: #9b34ce;
+        border-bottom: 2px solid gray;
+        width: 117%;
+        height: 200vh;
+
+    }
+
+    #content>p{
+        width: 70%;
+        margin: 3% 0 0 1%;
+        font-size: 2vw;
+    }
+
+    #content>img {
+        width: 50vw;
+    }
+
+    #formulario {
+        grid-area: formulario;
+        width: 70%;
+        margin: 0 0 0 -20%;
+        display: flex;
+        flex-direction: row;
+        font-size: 2vw;
+
+    }
+
+    #formulario>form>h2 {
+        width: 300%;
+        text-align: start;
+        font-size: 2.5vw;
+        margin: 0 0 1% 0;
+    }
+
+    #formulario>form {
+        margin: 0 3% 5% 80%;
+        text-align: start;
+        padding: 10% 0 0 7%;
+    }
+
+    #formulario > form > input {
+        margin: 1.7% 0 0 0;
+        padding: 0 40% 0 0;
+        height: 2.7vh;
+        width: 215%;
+    }
+
+    #checkbox-container {
+        display: flex;
+        flex-direction: row;
+        width: 260%;
+
+    }
+
+    #formulario>form>button {
+        background-color: #9e1ec0;
+        width: 260%;
+        color: white;
+        font-weight: bold;
+        font-size: 1.9vw;
+        height: 4vh;
+    }
+}

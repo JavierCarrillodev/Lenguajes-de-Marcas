@@ -1,0 +1,224 @@
+/*Movil*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+#header>img{
+    width: 50%;
+    display: block;
+    margin: 3% 0 6% 20%;
+    padding: 5% ;
+    border-top: 2px solid blue;
+
+}
+
+#header>a{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    color: gray;
+    position: relative;
+    padding: 0 0 3% 0;
+}
+#header>a:last-child{
+    background: #089e22;
+    color: white;
+    font-weight: bold;
+    margin: 0 27% 15% 27%;
+    padding: 2% 0 2% 0;
+    border-radius: 3px 3px 3px 3px;
+
+}
+
+#content>img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 9%;
+    background: #3f3fe3;
+
+}
+#contento{
+    background: #3F3FE3FF;
+    text-align: center;
+    display: flex;
+    margin: 1%;
+    flex-direction: column;
+    position: relative;
+    bottom: 8px;
+
+}
+#contento>h1{
+    color: white;
+    line-height: 0.1;
+}
+#contento>h2{
+    color: #a19f9f;
+    font-weight: normal;
+
+}
+#contento>h2>b{
+    color: #faf9f9;
+    font-weight: normal;
+
+}
+#contento>div>button{
+    position: relative;
+    bottom: 10px;
+}
+#contento>div>button:first-of-type{
+    padding: 3% 0 3% 0;
+    background: radial-gradient(green, #94c245);
+    border-color: #089e22;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+
+
+}
+#contento>div>button:last-of-type {
+    background-color: transparent;
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    padding: 2% 2% 2% 2%;
+
+}
+
+/*Table*/
+@media (min-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #header>a{
+        font-size: 3vw;
+    }
+    #header>img{
+        position: relative;
+        left: 3%;
+    }
+    #content>img{
+        width: 70vw;
+    }
+    #contento{
+        width: 88vw;
+        position: relative;
+        left: 5%;
+        bottom: 10px;
+
+    }
+
+}
+
+/*Pc*/
+@media (min-width: 1000px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 2fr;
+        grid-template-areas: "header header"
+                        "content contento";
+
+    }
+    #header{
+        width: 20%;
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
+        border-top: 2px solid #1717c5;
+        justify-content: space-around;
+        margin: 2% 5% 5% 1% ;
+    }
+
+    #header>img{
+        height:34%;
+        display:flex;
+        flex-direction: row;
+        margin: 2% 0 0 2%;
+        padding: 1% 0 0 -6%;
+        justify-content:  right;
+        border-top: none;
+    }
+
+    #header>a{
+        display: flex;
+        flex-direction: row;
+        margin: 4% 5% 0 0;
+        font-size: 1.7vw;
+        padding: 0 0 0 22%;
+    }
+    #header>a:nth-child(5){
+        white-space: nowrap;
+    }
+    #header>a:last-child{
+        display: flex;
+        flex-direction: row;
+        padding: 1.5% 2% 0 2%;
+        margin: 2.5% 3% 1% 0;
+        white-space: nowrap;
+    }
+    #content>img{
+        grid-area: content;
+        width: 87%;
+        margin: 3% 0 0 7%;
+        padding: 0 0 6% 1%;
+        background-color: #ece7e7;
+    }
+    #content{
+        width: 195%;
+        height: 106%;
+        margin: 0 0 0 2.5%;
+        border-radius: 0 0 1vw 1vw ;
+    }
+    #contento{
+        grid-area: contento;
+        display: flex;
+        flex-direction:column;
+        font-size: 1.2vw;
+        align-items: center;
+        margin: 9% 4% 4% 3%;
+    }
+    #contento>h1{
+        font-size: 3.5vw;
+        margin: 0 3% 0 0;
+    }
+    #contento>div{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #contento>div>a>b{
+        color: white;
+        width: 50%;
+        background-color: #2e832e;
+        padding: 7% 3% 5% 3%;
+        white-space: nowrap;
+    }
+    #contento>div>a:nth-child(2){
+        display: flex;
+        flex-direction: row;
+        margin: -5% 0 1% 9%;
+        white-space: nowrap;
+        padding: 3.5% 5% 5% 5%;
+
+    }
+
+
+}

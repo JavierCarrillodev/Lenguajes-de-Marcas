@@ -1,0 +1,153 @@
+/*Movil*/
+body{
+    margin: 1%;
+    padding: 1%;
+}
+
+#arriba{
+    display: flex;
+    flex-direction: row;
+    background-color: #35500c;
+    height: 40vw;
+}
+#arriba>div>img{
+    width: 200%;
+}
+
+#arriba>div>div>h1{
+    font-size: 5vw;
+    position: relative;
+    left: 20%;
+    color: white;
+    width: 80%;
+}
+#arriba>div>div>p{
+    font-size: 4vw;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    bottom: 70px;
+    color: white;
+    width: 60%;
+}
+#texto{
+    position: relative;
+    top: 30px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    top: 30px;
+    width: 80%;
+}
+#texto{
+    font-size: 3vw;
+}
+#texto>div>h2{
+    text-align: center;
+}
+#texto>div>p{
+    text-align: center;
+}
+#menu{
+    text-align: center;
+    background-color: #1f3601;
+    border-radius: 7px 7px 0 0;
+    color: white;
+}
+#menu>p{
+    font-size: 2vw;
+}
+#formulario{
+    background-color: gray;
+    position: relative;
+    bottom: 21px;
+
+}
+#formulario>form>label{
+    text-align: center;
+    font-size: 4vw;
+    margin: 0 5% 0 8%;
+
+
+}
+#formulario>form>input{
+    text-align: center;
+    font-size: 4vw;
+    padding: 2% 19% 0 9%;
+    position: relative;
+    left: 8%;
+
+}
+select{
+    font-size: 4vw;
+    position: relative;
+    left: 8%;
+    padding: 1% 62% 1% 0;
+
+}
+@media (min-width: 600px){
+    #formulario>form{
+        position: relative;
+        top: 30px;
+    }
+}
+@media (min-width: 1000px){
+    #texto>div>img{
+        width: 40vw;
+        position: relative;
+        right: 29%;
+    }
+    #texto>div>h2{
+        font-size: 2vw;
+        position: relative;
+        top: 30px;
+        right: 28%;
+    }
+    #texto>div>p{
+        font-size: 2vw;
+        position: relative;
+        top: 30px;
+        right: 3%;
+        width: 50%;
+
+    }
+    #menu>h2{
+        font-size: 2vw;
+        text-align: center;
+    }
+    #menu>p{
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    #menu{
+        width: 40%;
+        position: relative;
+        left: 55%;
+        bottom: 385px;
+    }
+    #formulario{
+        width: 40%;
+        position: relative;
+        left: 55%;
+        bottom: 400px;
+    }
+    #formulario>form>label{
+        font-size: 2vw;
+        padding: 5% 5% 5% 0;
+    }
+    #formulario>form>input{
+        font-size: 0.3vw;
+        padding: 3% 60% 3% 5%;
+        position: relative;
+        bottom: 10px;
+
+    }
+    select{
+        font-size: 1.3vw;
+        padding: 3% 59% 3% 0;
+    }
+
+    #texto{
+    }
+}

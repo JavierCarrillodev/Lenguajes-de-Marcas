@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="universidad">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="departamento">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="profesor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="especialidad" type="xs:string"/>
+                                        <xs:element name="aula">
+                                            <xs:complexType>
+
+                                                <xs:attribute name="numero" type="xs:string" use="required"/>
+                                                <xs:attribute name="capacidad" type="xs:string" use="required"/>
+
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required"/>
+                                    <xs:attribute name="contrato" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:sequence>
+                                <xs:element name="aula" type="xs:string">
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:sequence>
+                        <xs:attribute name="codigo" type="xs:string" use="required"/>
+                        <xs:attribute name="presupuesto" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

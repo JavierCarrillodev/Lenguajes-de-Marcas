@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cluster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejercluster.xsd">
+    <nodo nombre="Modric" ip="123.43.5.2">
+        <maquina>
+            <nombre>Hacker</nombre>
+            <sistema_operativo>Ubuntu</sistema_operativo>
+            <red>
+                <ip>123.423.2.4</ip>
+                <mac>2FH467bj3</mac>
+            </red>
+        </maquina>
+        <maquina>
+            <nombre>Pepe</nombre>
+            <sistema_operativo>Windows</sistema_operativo>
+            <red>
+                <ip>121.43.6.4</ip>
+                <mac>2F423F67bj3</mac>
+            </red>
+        </maquina>
+    </nodo>
+    <nodo nombre="Jose" ip="173.45.7.1">
+        <maquina>
+            <nombre>Hacker</nombre>
+            <sistema_operativo>Linux</sistema_operativo>
+            <red>
+                <ip>123.423.2.4</ip>
+                <mac>2FH467bj3</mac>
+            </red>
+        </maquina>
+        <maquina>
+            <nombre>Antonio</nombre>
+            <sistema_operativo>Windows</sistema_operativo>
+            <red>
+                <ip>123.53.6.4</ip>
+                <mac>2F423F67bj3</mac>
+            </red>
+        </maquina>
+    </nodo>
+</cluster>

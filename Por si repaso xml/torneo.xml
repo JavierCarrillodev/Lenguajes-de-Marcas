@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Torneo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ejertorneo.xsd">
+    <fecha_ini>12/02/2004</fecha_ini>
+    <fecha_fin>25/02/2004</fecha_fin>
+    <partidos>
+        <partido>
+            <fecha>12/02/2004</fecha>
+            <jugadores>
+                <jugador numero="1">
+                    <nombre>Javi</nombre>
+                    <edad>20</edad>
+                </jugador>
+                <jugador numero="2">
+                    <nombre>Victoria</nombre>
+                    <edad>19</edad>
+                </jugador>
+            </jugadores>
+            <resultados>
+                <set numero="1">
+                    <resultado>6-3</resultado>
+                </set>
+                <set numero="2">
+                    <resultado>6-4</resultado>
+                </set>
+                <set numero="3">
+                    <resultado>6-3</resultado>
+                </set>
+            </resultados>
+        </partido>
+
+
+        <partido>
+            <fecha>14/02/2004</fecha>
+            <jugadores>
+                <jugador numero="1">
+                    <nombre>Alex</nombre>
+                    <edad>24</edad>
+                </jugador>
+                <jugador numero="2">
+                    <nombre>Pepe</nombre>
+                    <edad>20</edad>
+                </jugador>
+            </jugadores>
+            <resultados>
+                <set numero="1">
+                    <resultado>7-5</resultado>
+                </set>
+                <set numero="2">
+                    <resultado>6-4</resultado>
+                </set>
+                <set numero="3">
+                    <resultado>6-1</resultado>
+                </set>
+            </resultados>
+        </partido>
+
+        <partido>
+            <fecha>15/02/2004</fecha>
+            <jugadores>
+                <jugador numero="1">
+                    <nombre>Jose</nombre>
+                    <edad>18</edad>
+                </jugador>
+                <jugador numero="2">
+                    <nombre>Antonio</nombre>
+                    <edad>34</edad>
+                </jugador>
+            </jugadores>
+            <resultados>
+                <set numero="1">
+                    <resultado>6-1</resultado>
+                </set>
+                <set numero="2">
+                    <resultado>6-2</resultado>
+                </set>
+                <set numero="3">
+                    <resultado>6-0</resultado>
+                </set>
+            </resultados>
+        </partido>
+    </partidos>
+</Torneo>

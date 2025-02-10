@@ -1,0 +1,270 @@
+/*Movil*/
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "header"
+                        "content";
+}
+#header{
+    grid-area: header;
+    background-color: #198819;
+    color: white;
+    margin: 2% 2% 2% 2%;
+    height: 70%;
+}
+#header>h4{
+    font-size: 4.5vw;
+    font-weight: normal;
+    margin: 9% 0 0 9%;
+    height: 2%;
+}
+#header>img{
+   display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+#header>h1 {
+    font-size: 7vw;
+    text-align: center;
+}
+#header>h3>b {
+    font-size: 4.4vw;
+    background-color: #1f3601;
+
+}
+#header>h3{
+    font-weight: normal;
+    background-color: #1f3601;
+    padding: 2% 0 2% 0;
+    position: relative;
+    top: 40px;
+
+}
+#content{
+    grid-area: content;
+    background-color: #dcd4d4;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+
+}
+#content>div>img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+
+}
+#content>div>ul>li{
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+
+}
+#content>div>button{
+    border-color: #dcd4d4;
+    position: relative;
+    top: 26px;
+    left: 80px;
+    border-radius: 4px;
+}
+#content2{
+    position: relative;
+    top: 15px;
+    height: 70%;
+}
+#foot{
+    grid-area: foot;
+    background-color: #bb3807;
+    height: 43%;
+    position: relative;
+    bottom: 10px;
+
+}
+#foot>h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+#foot>h4{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#foot2{
+    color: #525151;
+    text-align: center;
+    background-color: #c7c5c5;
+    height: 80%;
+    position: relative;
+    bottom: 31px;
+}
+#foot2>h4 {
+    position: relative;
+    top: 15px;
+
+}
+#foot2>button {
+    position: relative;
+    top: 15px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: radial-gradient(red, #bd3535);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px 4px 4px 4px;
+    border-color: red;
+    height: 13%;
+    font-size: 4vw;
+
+}
+#foot2>button:first-of-type{
+    padding: 0 8% 0 8%;
+}
+
+/*TABLE*/
+@media (min-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #header>h4{
+        font-size: 4vw;
+        position: relative;
+        right: 22px;
+    }
+    #header>h1{
+        font-size: 5vw;
+        text-align: center;
+
+    }
+    #header>h3{
+        font-size: 4vw;
+        position: relative;
+
+
+    }
+    #header>img{
+        width: 30vw;
+        position: relative;
+        top: 66px;
+    }
+    #content>div>button{
+        position: relative;
+        left: 29%;
+
+    }
+    #foot{
+        font-size: 3vw;
+    }
+    #foot2{
+        position: relative;
+        bottom: 37px;
+    }
+    #foot2>h4{
+        font-size: 3vw;
+    }
+    #foot2>button{
+        font-size: 4vw;
+        position: relative;
+        left: 30%;
+    }
+}
+
+
+/*PC*/
+@media (min-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header {
+        display: block;
+        width: 96%;
+        height: 30%;
+        font-size: 2vw;
+    }
+    #header>h1{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        font-size: 3vw;
+        position: relative;
+        left: 26px;
+        bottom: 35px;
+
+    }
+    #header>h4{
+        font-size: 2.6vw;
+        position: relative;
+        bottom: 40px;
+        right: 50px;
+    }
+    #header>img{
+        width: 20vw;
+        position: relative;
+        left: 35%;
+        top: -90%;
+        justify-content: start;
+
+    }
+    #header>h3{
+        position: relative;
+        font-size: 2vw;
+    }
+    #header>h3>b{
+        font-size: 2vw;
+    }
+    #header>h3{
+        position: relative;
+        top: -108%;
+    }
+    #content{
+        display: block;
+        width: 60%;
+        height: 48%;
+        bottom: 55%;
+        background: gray;
+    }
+
+    #content2{
+        display: block;
+        position: relative;
+        left: 100%;
+        width: 60%;
+        top: -97%;
+    }
+    #foot{
+        font-size: 2vw;
+        height: 59%;
+    }
+    #foot2{
+        height: 100%;
+    }
+    #foot2>h4{
+        font-size: 2vw;
+
+    }
+    #foot2>button{
+        font-size: 2vw;
+        position: relative;
+        left: 24%;
+    }
+    #foot2>button:first-of-type{
+        padding: 0 11% 0 11%;
+    }
+}

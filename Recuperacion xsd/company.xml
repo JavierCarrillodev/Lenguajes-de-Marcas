@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejercompa.xsd">
+
+    <employee id="1001" department="HR" status="active">
+        <name>John Doe</name>
+        <position>HR Manager</position>
+        <salary>55000</salary>
+        <hireDate>2015-03-25</hireDate>
+    </employee>
+    <employee id="1002" department="IT" status="inactive">
+        <name>Jane Smith</name>
+        <position>Software Engineer</position>
+        <salary>75000</salary>
+        <hireDate>2018-07-10</hireDate>
+    </employee>
+    <employee id="1003" department="Sales" status="active">
+        <name>Bill Turner</name>
+        <position>Sales Representative</position>
+        <salary>48000</salary>
+        <hireDate>2020-01-15</hireDate>
+    </employee>
+</company>

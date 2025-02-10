@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reserva xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejerreserva.xsd">
+    <cliente nombre="Luis Martín">
+        <dni>12345678A</dni>
+        <email>luis@correo.com</email>
+    </cliente>
+    <habitaciones>
+        <habitacion tipo="doble" precio="100" noches="3"/>
+        <habitacion tipo="individual" precio="80" noches="2"/>
+    </habitaciones>
+    <total>460</total>
+</reserva>

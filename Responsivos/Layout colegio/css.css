@@ -1,0 +1,115 @@
+/*Movil*/
+body{
+    margin: 1%;
+    padding: 1%;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 2fr 0.8fr 0.1fr;
+    grid-template-areas: "header"
+                        "arriba"
+                        "logo"
+                        "patio"
+                        "calendario"
+                        "categoria"
+                        "cursos"
+                        "moodle";
+}
+
+#header{
+    grid-area: header;
+    background-color: black;
+    color: white;
+    border-radius: 6px 6px 0 0;
+}
+#header>div>h1{
+    text-align: center;
+}
+#header>div:last-of-type{
+    text-align: right;
+}
+#arriba{
+    grid-area:arriba;
+    background-color: #089e22;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    font-size: 3.8vw;
+    justify-content: space-around;
+}
+#logo>img{
+    grid-area: logo;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 6px;
+}
+#logo>h4{
+    text-align: center;
+    justify-items: start;
+}
+#patio>img{
+    grid-area: patio;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#calendario{
+    grid-area: calendario;
+    position: relative;
+    bottom: 210px;
+    display: block;
+    left: 25%;
+}
+#calendario>h4{
+    position: relative;
+    left: 12%;
+}
+#categoria{
+    grid-area: categoria;
+    position: relative;
+    top: 300px;
+    background-color: gray;
+    padding: 0 15% 0 15%;
+    text-align: center;
+    border-bottom: 2px solid green;
+}
+#cursos{
+    grid-area: cursos;
+
+}
+#cursos>img{
+    width: 20%;
+    position: relative;
+    top: 450px;
+    display: block;
+    margin: 0 auto;
+    background-color: #b42828;
+}
+#cursos>ul>li{
+    position: relative;
+    top: 220px;
+    width: 113%;
+    right: 12%;
+    text-align: center;
+    background-color: gray;
+    list-style-type: none;
+    color: #194419;
+}
+
+#moodle{
+    grid-area: moodle;
+    position: relative;
+    bottom: 290px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#moodle>img {
+    display: block;
+    margin: 0 auto;
+}

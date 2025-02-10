@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="ejer1es.xsd">
+    <estudiante matricula="2023001" activo="true">
+        <nombre>María López</nombre>
+        <edad>20</edad>
+        <carrera>Ingeniería</carrera>
+    </estudiante>
+    <estudiante matricula="2023002" activo="false">
+        <nombre>Carlos Ruiz</nombre>
+        <edad>22</edad>
+        <carrera>Medicina</carrera>
+    </estudiante>
+</estudiantes>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="F001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ejerfactura.xsd">
+    <cliente>
+        <nombre>Pedro López</nombre>
+        <direccion>Calle Falsa 123</direccion>
+    </cliente>
+    <productos>
+        <producto codigo="P100" cantidad="2" precio="50.00"/>
+        <producto codigo="P200" cantidad="1" precio="30.00"/>
+    </productos>
+    <total>130.00</total>
+</factura>

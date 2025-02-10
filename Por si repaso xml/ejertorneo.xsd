@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Torneo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fecha_ini" type="xs:date"/>
+
+                <xs:element name="fecha_fin" type="xs:date"/>
+
+                <xs:element name="partidos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="partido" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="fecha" type="xs:date"/>
+                                        <xs:element name="jugadores">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="jugador" minOccurs="0" maxOccurs="2">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+
+                                                                <xs:element name="nombre" type="xs:string"/>
+
+                                                                <xs:element name="edad" type="xs:int">
+
+                                                                </xs:element>
+                                                                <xs:element name="resultados">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="set" minOccurs="0" maxOccurs="unbounded">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+
+                                                                                        <xs:element name="resultado" type="xs:int">
+
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                    <xs:attribute name="numero" type="xs:int" use="required"/>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="numero" type="xs:int" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="numero" type="xs:int" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

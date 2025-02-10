@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<red_social xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ejerred.xsd">
+    <usuario nombre="Juan">
+        <amigos>
+            <amigo nombre="Carlos"/>
+            <amigo nombre="Ana"/>
+        </amigos>
+    </usuario>
+    <usuario nombre="Ana">
+        <amigos>
+            <amigo nombre="Juan"/>
+            <amigo nombre="Pedro"/>
+        </amigos>
+    </usuario>
+</red_social>

@@ -1,0 +1,106 @@
+/*Movil*/
+body{
+    margin: 1%;
+    padding: 1%;
+
+}
+
+
+#header>img{
+    width:60%;
+    background-color: gray;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20% 2% 20%;
+}
+
+#tia>img{
+    width: 100%;
+}
+#content>h1{
+    color: #9e1ec0;
+    border-bottom: 1px solid gray;
+}
+
+#content>img{
+    width: 95%;
+}
+#formulario>form>label{
+    position: relative;
+    left: 20%;
+}
+#formulario>form>h2{
+    text-align: center;
+}
+#formulario>form>input{
+    position: relative;
+    left: 20%;
+    padding: 0 0 0 20%;
+
+}
+#formulario>form>div{
+    text-align: center;
+}
+button{
+    position: relative;
+    left: 20%;
+    background-color: #741f88;
+    color: white;
+    padding: 2% 20% 2% 20%;
+
+}
+@media (min-width: 600px){
+    button{
+        padding: 2% 25% 2% 25%;
+        left: 15%;
+
+    }
+}
+
+@media (min-width: 1000px) {
+    body{
+        width: 70%;
+        margin: 0;
+        padding: 3%;
+    }
+    #wrapper{
+        display: grid;
+        grid-template-rows: 0.2fr 0.3fr 1fr;
+        grid-template-columns: 2fr 0.1fr;
+        grid-template-areas: "header header"
+                            "tia tia"
+                            "content formulario";
+    }
+    #header{
+        grid-area: header;
+        width: 130%;
+
+    }
+
+    #tia{
+        grid-area: tia;
+        width: 130%;
+    }
+
+    #content{
+        grid-area: content;
+    }
+    #formulario>form{
+        position: relative;
+        left: 60%;
+    }
+    #formulario>form>h2{
+        width: 160%;
+        display: flex;
+        flex-direction: row;
+    }
+    #formulario>form>div{
+        position: relative;
+        left: 30%;
+    }
+    button{
+        padding: 3% 65% 3% 65%;
+        position: relative;
+        left: 5%;
+    }
+}

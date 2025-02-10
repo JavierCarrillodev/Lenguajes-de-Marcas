@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="ejerpelis.xsd">
+    <pelicula id="001">
+        <titulo>Matrix</titulo>
+        <anio>1999</anio>
+        <genero>Acción</genero>
+        <actores>
+            <actor>Keanu Reeves</actor>
+            <actor>Laurence Fishburne</actor>
+        </actores>
+    </pelicula>
+    <pelicula id="002">
+        <titulo>Inception</titulo>
+        <anio>2010</anio>
+        <genero>Ciencia ficción</genero>
+        <actores>
+            <actor>Leonardo DiCaprio</actor>
+            <actor>Joseph Gordon-Levitt</actor>
+        </actores>
+    </pelicula>
+</peliculas>

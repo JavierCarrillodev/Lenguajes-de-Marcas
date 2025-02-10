@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="ejerbiblio.xsd">
+    <libro isbn="978-3-16-148410-0" año="2005">
+        <titulo>El señor de los anillos</titulo>
+        <autor nacionalidad="británica">
+            <nombre>J.R.R. Tolkien</nombre>
+        </autor>
+        <genero>Fantasía</genero>
+    </libro>
+    <libro isbn="978-84-376-0494-7" año="1999">
+        <titulo>La sombra del viento</titulo>
+        <autor nacionalidad="española">
+            <nombre>Carlos Ruiz Zafón</nombre>
+        </autor>
+        <genero>Misterio</genero>
+    </libro>
+</biblioteca>

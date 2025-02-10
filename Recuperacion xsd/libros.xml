@@ -1,0 +1,14 @@
+<libros>
+    <libro>
+        <titulo>El Gran Gatsby</titulo>
+        <autor>F. Scott Fitzgerald</autor>
+        <anio>1925</anio>
+        <precio>20.50</precio>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <anio>1949</anio>
+        <precio>15.75</precio>
+    </libro>
+</libros>

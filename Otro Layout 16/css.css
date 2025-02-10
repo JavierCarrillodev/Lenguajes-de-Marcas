@@ -1,0 +1,134 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+#wrapper{
+    width: 95.5vw;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    background-color: #c0bbbb;
+    margin: 1% 0 0 1.2% ;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 1% ;
+    height: 15vh;
+}
+#header2>img{
+    width: 96.7vw;
+    padding: 0 0 1% 1.4%;
+}
+#content>h1{
+    padding: 2% 3% 1% 0;
+    margin: 0 0 0 1%;
+    color: #8134ce;
+    border-bottom: 2px solid gray;
+    width: 37vw;
+    height: 7vh;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    height: 1vh;
+
+}
+
+#content>p{
+    width: 35vw;
+    margin: 3% 0 0 1%;
+    font-size: 1vw;
+}
+#content>img{
+    width: 40vw;
+}
+#formulario{
+    width: 80%;
+    padding: 0 5% 0 0 ;
+    display: flex;
+    flex-direction: row;
+
+}
+#formulario>form>h2{
+    width: 20vw;
+    text-align: start;
+    font-family: Arial;
+    font-size: 1.4vw;
+    margin: 0 0 4% 0;
+}
+#formulario>form{
+    margin: 0 3% 5% 80% ;
+    text-align: start;
+    padding: 0 0 0 7%;
+}
+
+#formulario>form>input{
+    margin: 1.7% 0 0 0;
+    padding: 0 40% 0 0;
+    height: 2.7vh;
+}
+#checkbox-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 2% 8%;
+}
+button{
+    background-color: #9e1ec0;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9vw;
+    height: 4vh;
+}
+/*Movil*/
+@media screen and (max-width: 400px){
+    body {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    #wrapper{
+        width: 95.5vw;
+        height: 100vh;
+    }
+    #header{
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas:"header"
+                            "content"
+                            "formulario";
+        grid-area: header;
+        width: 100%;
+    }
+    #header2{
+        display: none;
+    }
+    #content{
+        grid-area: content;
+
+    }
+    #content>h1{
+        width: 10vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    #formulario{
+        grid-area: formulario;
+        width: 20%;
+        height: 2vh;
+        margin: 70% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        padding: 10% 0 0 4%;
+    }
+    #formulario>form{
+        width: 380%;
+        max-width: 400px;
+    }
+}
+

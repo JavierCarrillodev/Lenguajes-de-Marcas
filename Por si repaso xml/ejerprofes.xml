@@ -1,0 +1,17 @@
+<?xml version="1.0" encondig="UFT-8"?>
+<Institutos>
+    <profesores>
+      <nombre>Miguel</nombre>
+        <asignaturas>Matematicas</asignaturas>
+        <alumnos>
+            <nombres>Jesus x10</nombres>
+        </alumnos>
+    </profesores>
+    <profesores>
+        <nombre>Jose</nombre>
+        <asignaturas>Mates etc</asignaturas>
+        <alumnos>
+            <nombres>Pepe</nombres>
+        </alumnos>
+    </profesores>
+</Institutos>
