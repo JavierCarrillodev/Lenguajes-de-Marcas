@@ -1,0 +1,103 @@
+@use "sass:list";
+@use "sass:math";
+
+//Lista para asignar colores
+$colores:(red, green, blue, yellow, pink, orange, #e3b299);
+$colorLetraTabla: grey;
+$colorh1: #4b98e0;
+body {
+  margin: 5%;
+  padding: 0;
+  width: 65vw;
+}
+
+#cabecera {
+  h1 {
+    width: 120%;
+    color: #4b98e0;
+  }
+}
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+
+    tr{
+      @each $i in $colores {
+        &:nth-child(#{index($colores, $i)}) {
+          background-color: $i;
+        }
+      }
+    }
+    td{
+      padding: 30px;
+      width: 150px;
+      border: 1px solid gray;
+      color: $colorLetraTabla;
+    }
+
+
+  $etiquetas: (
+          h1: 30px,
+          h2: 30px,
+          h3: 20px,
+          h4: 10px,
+          h5: 10px,
+          h6: 20px
+  );
+
+
+  #footer {
+    @each $etiqueta, $size in $etiquetas {
+      #{$etiqueta} {
+        font-size: $size;
+      }
+    }
+  }
+  h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+  }
+  $coloresEtiquetas: (
+          h1: #ff6347,
+          h2: #4682b4,
+          h3: #32cd32,
+          h4: #ff1493,
+          h5: #8a2be2,
+          h6: #ff8c00
+  );
+  @each $etiqueta, $colores in $coloresEtiquetas {
+    #footer {
+      #{$etiqueta} {
+        color: $colores;
+      }
+    }
+  }
+
+$anchura:100%;
+@function calcularAnchura($anchura, $multiplicador){
+
+  @return $anchura * $multiplicador;
+
+}
+#cabecera{
+  table{
+    width: calcularAnchura($anchura, 0.4);
+  }
+}
+
+@media (min-width: 600px) {
+  #cabecera{
+    table{
+      width: calcularAnchura($anchura, 1.3);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #cabecera{
+    table{
+      width: calcularAnchura($anchura, 1.3);
+    }
+  }
+}
