@@ -1,0 +1,60 @@
+@use "funciones";
+@use "mixins";
+@use "variables";
+@use "estructura";
+
+body {
+  @include mixins.body
+}
+
+#cabecera {
+  @include mixins.centrarBloque;
+  h1 {
+    width: 100%;
+    color: #4b98e0;
+    text-align: center;
+    border: 1px solid gold;
+    background-color: green;
+  }
+}
+table {
+  @include mixins.table
+
+}
+$colorLetraTabla: grey;
+
+td{
+  padding: 10px;
+  width: 150px;
+  border: 1px solid gray;
+  color: $colorLetraTabla;
+}
+
+
+#footer{
+  @include mixins.centrarElementos;
+
+}
+
+$anchura:100%;
+#cabecera{
+  table{
+    width: funciones.calcularAnchura($anchura, 1.5);
+  }
+}
+
+@media (min-width: 600px) {
+  #cabecera{
+    table{
+      width: funciones.calcularAnchura($anchura, 1.3);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #cabecera{
+    table{
+      width: funciones.calcularAnchura($anchura, 1.3);
+    }
+  }
+}

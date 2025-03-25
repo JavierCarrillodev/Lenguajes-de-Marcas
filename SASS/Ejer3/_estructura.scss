@@ -1,0 +1,41 @@
+@use "sass:list";
+@use "variables" as *;
+#cabecera {
+body {
+  margin: 5%;
+  padding: 12%;
+  width: 65vw;
+  height: 0
+}
+  h1 {
+    width: 120%;
+    color: #4b98e0;
+  }
+
+  table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+}
+
+tr{
+  @each $i in $colores {
+    &:nth-child(#{list.index($colores, $i)}) {
+      background-color: $i;
+    }
+  }
+}
+#footer {
+  @each $etiqueta, $size in $etiquetas {
+    #{$etiqueta} {
+      font-size: $size;
+    }
+  }
+}
+@each $etiqueta, $colores in $coloresEtiquetas {
+  #footer {
+    #{$etiqueta} {
+      color: $colores;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@mixin centrarBloque{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin centrarElementos{
+  h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+  }
+}
+@mixin body{
+  margin: 5%;
+  padding: 12%;
+  width: 65.8vw;
+  height: 0
+}
+@mixin bloqueh1{
+  #cabecera{
+    h1{
+      border: 1px solid gold;
+      background-color: green;
+
+    }
+  }
+
+}
+@mixin table{
+  border-collapse: collapse;
+  text-align: center;
+}
