@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row > div{
+            background: #0dcaf0;
+            margin: 10px 0;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- En el container irá todas las filas y columnas y tambien podemos centrar nuestra pagina -->
+    <div class="container">
+        <!-- Las filas (row) son grupos HORIZONTALES de columnas-->
+
+        <!-- Los tamaños de Columna en Bootsrap 5 son:
+       .col Extra Pequeño (Extra Small) - Smartphones Vertical         Menos de 576px
+       .col-sm Pequeño (Small) Smartphones Vertical                     Mas de 576px y Menos de 768px
+       .col-md Mediano (Medium) - Tablets                               Mas de 768px y Menos de 992px
+       .col-lg  Largo (Large) - Computadoras                            Mas de 992px y Menos de 1200px
+       .col-xl Extra Largo (Extra Large) - Computadoras                 Mas de 1200px
+       .col-xxl Extra Extra Largo (Extra Extra Large) - Televisiones    Mas de 1400px
+-->
+
+                <div class="row">
+                    <div class="col-6 col-md-12">
+                        <h1>Hola Mundo</h1>
+                        <p>Lorem ipsum no sabia que poner porque me daba pereza copiar algo de interne asiq pongo esto</p>
+                    <button class="btn btn-primary">VER MAS</button>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h1>Hola Mundo</h1>
+                        <p>Lorem ipsum no sabia que poner porque me daba pereza copiar algo de interne asiq pongo esto</p>
+                    <button class="btn btn-primary">VER MAS</button>
+                    </div>
+                    <div class="col-12">
+                        <h1>Hola Mundo</h1>
+                        <p>Lorem ipsum no sabia que poner porque me daba pereza copiar algo de interne asiq pongo esto</p>
+                    <button class="btn btn-primary">VER MAS</button>
+                    </div>
+                </div>
+            </div>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        </body>
+        </html>

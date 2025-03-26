@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Bootstrap</title>
+
+    <link href="bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+<body>
+
+<div class="container-fluid" style="background-color: #35500c;">
+    <div class="row">
+        <div class="col-7 col-sm-5 col-md-5 col-xl-5">
+            <img src="./Imagenes/aventura.png" alt="Aventura" class="img-fluid my-3  ms-1 ms-xl-5 " style="max-width: 50%">
+        </div>
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-white my-3">
+            <h1 class="fw-bold">[Guia] 10 Lugares para um final de semana de Aventura!</h1>
+            <p>Conheca dicas de lugares para quem busca contato com a natureza.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 " style="background-color: burlywood">
+    <div class="row">
+        <div class="col-12 col-md-6 text-center mb-5">
+            <img src="./Imagenes/lugares.png" alt="Lugares" class="img-fluid my-1 mb-4" style="max-width: 100%; height: 60%;">
+            <h2 class="fs-3 fw-bold">Todas as regiões do Brasil</h2>
+            <p style="max-width: 55%; margin-left: 24%;">Selecionamos dois lugares de cada região do Brasil para você aproveitar uma aventura de final de semana em contato com a natureza.</p>
+        </div>
+
+        <div class="col-12 col-md-5 col-xl-5 ms-md-4">
+            <div class="text-white text-center p-4 rounded-3" style="background-color: #35500c;">
+                <h2 class="fw-bold">Faça o download grátis aqui!</h2>
+                <p>Basta preencher o formulário abaixo</p>
+            </div>
+
+            <div class="bg-light p-4 rounded-3">
+                <form action="" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome*</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email*</label>
+                        <input type="email" name="Email" id="Email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Estado" class="form-label">Estado*</label>
+                        <select name="Estado" id="Estado" class="form-select">
+                            <option value="Selecione">Selecione</option>
+                            <option value="opcion1">Casado</option>
+                            <option value="opcion2">Soltero</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="elegir" class="form-label">Você pratica que tipo de aventura?*</label><br>
+                        <input type="checkbox" id="elegir" name="elegir">
+                        <label for="elegir">Trekking</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Enlace a los archivos JS de Bootstrap (al final del body) -->
+<script src="../bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
