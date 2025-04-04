@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53f9cd57-86ec-453e-83bb-bdf0f1277b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Practica2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BOOTSTRAP Udemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BOOTSTRAP Udemy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practica1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SASS/CV" beforeDir="false" afterPath="$PROJECT_DIR$/../SASS/CV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Harry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Harry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Karateca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/gta6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/gtaVI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practica2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Practica2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,26 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.Practica1.html.executor": "Run",
-    "JavaScript Debug.Practica2.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/javi/Documentos/Javi/1DAM/LENGUAJE DE MARCA/BOSTRAP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Practica1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Practica2.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/javi/Documentos/Javi/1DAM/LENGUAJE DE MARCA/BOSTRAP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +83,13 @@
       <workItem from="1743021742829" duration="435000" />
       <workItem from="1743069007593" duration="1103000" />
       <workItem from="1743079813787" duration="209000" />
-      <workItem from="1743092763928" duration="4908000" />
+      <workItem from="1743092763928" duration="5149000" />
+      <workItem from="1743104270166" duration="2441000" />
+      <workItem from="1743162697514" duration="88000" />
+      <workItem from="1743165604114" duration="1110000" />
+      <workItem from="1743416658467" duration="700000" />
+      <workItem from="1743584646379" duration="1681000" />
+      <workItem from="1743786709654" duration="4439000" />
     </task>
     <servers />
   </component>
