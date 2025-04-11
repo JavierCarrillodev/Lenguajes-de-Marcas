@@ -43,6 +43,11 @@
 <header class="bg-info text-white text-center py-4 b">
     <h1 class="fw-bold " style="margin-right:10%">EXPERIENCE</h1>
 </header>
+<div class="text-end d-block d-md-none px-3 py-2">
+    <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuResponsive">
+        <i class="bi bi-list fs-3"></i>
+    </button>
+</div>
 <div>
     <h1 class="text-center fw-bold mt-4" style="margin-right:10%">My work experience</h1>
 </div>
@@ -75,13 +80,24 @@
 </div>
 
 <!-- Sidebar Menu (Pegado a la derecha) -->
-<div class="sidebar text-center" style="height: 100vh;"> <!-- Asegúrate que el sidebar ocupe toda la altura -->
+<div class="sidebar text-center d-none d-md-block" style="height: 100vh;"> <!-- Asegúrate que el sidebar ocupe toda la altura -->
     <div class="centrarMenu d-flex flex-column justify-content-between" style="height: 90%;"> <!-- Quitar margin-top aquí -->
         <img src="./Imagenes/yo.png" class="rounded-circle img-fluid" alt="Profile Picture" style="width: 150px; margin-top: 5%; margin-left: 25%"> <!-- Usamos margin-top negativo para subir la imagen -->
         <h5><a href="./Practica2.html">ABOUT</a></h5>
         <h5><a href="./Formation.html">FORMATION</a></h5>
         <h5><a href="./Technologie.html">TECHNOLOGIES</a></h5>
         <h5><a href="./Experiencia.html">EXPERIENCE</a></h5>
+    </div>
+</div>
+<div class="offcanvas offcanvas-end d-block d-md-none" tabindex="-1" id="menuResponsive" aria-labelledby="menuResponsiveLabel">
+    <div class="offcanvas-header bg-info position-relative">
+    </div>
+    <div class="offcanvas-body d-flex flex-column align-items-center justify-content-center gap-4 text-center">
+        <img src="./Imagenes/yo.png" class="rounded-circle img-fluid mb-3" alt="Profile Picture" style="width: 150px;">
+        <h5><a href="./Practica2.html" class="text-dark text-decoration-none">ABOUT</a></h5>
+        <h5><a href="./Formation.html" class="text-dark text-decoration-none">FORMATION</a></h5>
+        <h5><a href="./Technologie.html" class="text-dark text-decoration-none">TECHNOLOGIES</a></h5>
+        <h5><a href="./Experiencia.html" class="text-dark text-decoration-none">EXPERIENCE</a></h5>
     </div>
 </div>
 
