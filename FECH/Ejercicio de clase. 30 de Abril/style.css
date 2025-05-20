@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.producto {
+    border: 1px solid #12e8ee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.nombre {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+.precio {
+    color: green;
+    text-align: center;
+}
+.etiquetas{
+    text-align: center;
+    margin-top: 10px;
+
+}
+.etiquetas span {
+    background: #eee;
+    padding: 3px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
