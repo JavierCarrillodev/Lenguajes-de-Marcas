@@ -1,0 +1,29 @@
+<div class="text-end d-block d-md-none px-3 py-2">
+  <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuResponsive">
+    <i class="bi bi-list fs-3"></i>
+  </button>
+</div>
+<router-outlet></router-outlet>
+<!-- Sidebar and Offcanvas Menu -->
+<div class="sidebar text-center d-none d-md-block" style="height: 100vh;">
+  <div class="centrarMenu d-flex flex-column justify-content-between" style="height: 90%;">
+    <img src="assets/yo.png" class="rounded-circle img-fluid" alt="Profile Picture" style="width: 150px; margin-top: 5%; margin-left: 25%">
+    <h5><a routerLink="/contacto" routerLinkActive="activo" [routerLinkActiveOptions]="{exact:true}">HOME</a></h5>
+    <h5><a routerLink="/formacion" routerLinkActive="activo">FORMATION</a></h5>
+    <h5><a routerLink="/personal" routerLinkActive="active">TECHNOLOGIES</a></h5>
+    <h5><a routerLink="/experiencia" routerLinkActive="active">EXPERIENCE</a></h5>
+  </div>
+</div>
+
+
+<footer class="text-center bg-warning text-dark py-4 mt-auto ">
+  <div style="margin-right: 13%">
+    <h3 class="fw-bold">CONTACT ME</h3>
+    <div class="d-flex justify-content-center gap-4 mt-3">
+      <a href="https://mail.google.com/mail/u/0/#inbox" class="text-dark fs-1"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://github.com/JavierCarrillodev" class="text-dark fs-1"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/feed/" class="text-dark fs-1"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+
+</footer>
