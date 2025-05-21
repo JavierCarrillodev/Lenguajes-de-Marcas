@@ -1,0 +1,48 @@
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: #343a40;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.sidebar a:hover {
+  background-color: #656262;
+  color: #12e8ee;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+}
+
+.content-list {
+  font-size: 1.2rem;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+.transition footer {
+  margin-top: auto;
+}
+.transition:hover {
+  transform: translateX(5px);
+  border-radius: 2vw;
+}
+
+/*# sourceMappingURL=style.css.map */
